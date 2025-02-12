@@ -1,6 +1,6 @@
 import React from 'react'
 import {HERO_CONTENT} from "../constants"
-import Profilepic from "../assets/kevinRushProfile.png"
+import DownloadCV from '../constants/resume'
 import { motion } from 'framer-motion'
 
 const Hero = () => {
@@ -43,6 +43,7 @@ const Hero = () => {
                       >
                         {HERO_CONTENT}
                     </motion.p>
+                    <DownloadCV/>
                 </div>
             </div>
             <div className='w-full lg:w-1/2 lg:p-8'>
