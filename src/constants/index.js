@@ -65,6 +65,7 @@ export const PROJECTS = [
   {
     title: "Employee Management App",
     image: project1,
+    https:"https://employee-management-app-b4cp.vercel.app/employee",
     description:
     "Built a full-stack Employee Management App using Reactjs, Nodejs and MOngoDB for backend services. Image uploads using cloudinary, and more. Designed for scalability with a seamless user experience.",
     technologies: ["HTML", "CSS", "Tailwindcss", "React", "Nodejs", "MongoDB"],
@@ -72,6 +73,7 @@ export const PROJECTS = [
   {
     title: "Grocery Store",
     image: project2,
+    source: "https://ecommerce-grocery-store-lovat.vercel.app/",
     description:
     "Built a full-featured Grocery Store using Reactjs and Tailwindcss. Designed for scalability with a seamless user experience.",
     technologies: ["HTML", "CSS", "Tailwindcss", "React"],
