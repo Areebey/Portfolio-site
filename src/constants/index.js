@@ -1,13 +1,15 @@
-import project1 from "../assets/projects/project-1.jpeg";
-import project02 from "../assets/projects/chat-app.png"
-import project002 from "../assets/projects/weather-app.jpeg"
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
-import project5 from "../assets/projects/project-5.jpg";
-import project6 from "../assets/projects/project-6.jpg";
-import project7 from "../assets/projects/project-7.jpg";
-import project8 from "../assets/projects/project-8.jpg";
+import project1 from "../assets/projects/project1.png";
+import project2 from "../assets/projects/project2.png";
+import project3 from "../assets/projects/project-1.jpeg";
+import project4 from "../assets/projects/chat-app.png"
+import project5 from "../assets/projects/project-8.jpg"
+import project6 from "../assets/projects/weather-app.jpeg"
+import project7 from "../assets/projects/project-2.jpg";
+import project8 from "../assets/projects/project-4.jpg";
+import project9 from "../assets/projects/project-5.jpg";
+import project10 from "../assets/projects/project-6.jpg";
+import project11 from "../assets/projects/project-3.jpg";
+// import project12 from "../assets/projects/project-8.jpg";
 
 export const HERO_CONTENT = `Hi, I'm a passionate Front-end developer with over a year of experience crafting 
 responsive and visually appealing web interfaces. Proficient in HTML5, CSS, Bootstrap, Tailwind CSS, JavaScript, 
@@ -61,15 +63,29 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Blog App",
+    title: "Employee Management App",
     image: project1,
+    description:
+    "Built a full-stack Employee Management App using Reactjs, Nodejs and MOngoDB for backend services. Image uploads using cloudinary, and more. Designed for scalability with a seamless user experience.",
+    technologies: ["HTML", "CSS", "Tailwindcss", "React", "Nodejs", "MongoDB"],
+  },
+  {
+    title: "Grocery Store",
+    image: project2,
+    description:
+    "Built a full-featured Grocery Store using Reactjs and Tailwindcss. Designed for scalability with a seamless user experience.",
+    technologies: ["HTML", "CSS", "Tailwindcss", "React"],
+  },
+  {
+    title: "Blog App",
+    image: project3,
     description:
     "Built a full-featured Blog App using React Router, Redux Toolkit, and Appwrite for backend services. Includes Signup/Signin, protected pages, a visual editor, image uploads, and more. Designed for scalability with a seamless user experience.",
     technologies: ["HTML", "CSS", "Tailwindcss", "React","Appwrite"],
   },
   {
     title: "Chat App",
-    image: project02,
+    image: project4,
     source: "https://fluffy-quokka-011a14.netlify.app/",
     description:
       "Built a React.js chat app with Firebase backend for real-time messaging. Features instantupdates, user authentication with google, and a responsive interface",
@@ -77,7 +93,7 @@ export const PROJECTS = [
   },
   {
     title: "Doctor's Website",
-    image: project8,
+    image: project5,
     source: "https://my-doctorapp.netlify.app/",
     description:
     "",
@@ -85,7 +101,7 @@ export const PROJECTS = [
   },
   {
     title: "Weather App",
-    image: project002,
+    image: project6,
     source: "https://weather-update-by-areeb.netlify.app/",
     description:
     "",
@@ -93,7 +109,7 @@ export const PROJECTS = [
   },
   {
     title: "Food Wagon Website",
-    image: project2,
+    image: project7,
     source: "https://me-foodwagon-app.netlify.app/",
     description:
     "",
@@ -101,7 +117,7 @@ export const PROJECTS = [
   },
   {
     title: "Home and Guest",
-    image: project4,
+    image: project8,
     sourec: "https://legendary-daifuku-2bdc2f.netlify.app/",
     description:
     "",
@@ -109,7 +125,7 @@ export const PROJECTS = [
   },
   {
     title: "Pepsi Website",
-    image: project5,
+    image: project9,
     source: "https://mepepsi.netlify.app/",
     description:
     "",
@@ -117,7 +133,7 @@ export const PROJECTS = [
   },
   {
     title: "Tere-Web Website",
-    image: project6,
+    image: project10,
     source: "https://my-ride-share.netlify.app/",
     description:
     "",
@@ -125,20 +141,20 @@ export const PROJECTS = [
   },
   {
     title: "SaltnPepper Website",
-    image: project3,
+    image: project11,
     source: "https://mesaltnpepper.netlify.app/",
     description:
       "A basic website",
     technologies: ["HTML", "CSS"],
   },
-  {
-    title: "Basic Portfolio",
-    image: project7,
-    source: "https://meek-crepe-bf9a13.netlify.app/",
-    description:
-    "A personal portfolio website showcasing projects, skills, and contact information",
-    technologies: ["HTML", "CSS"],
-  },
+  // {
+  //   title: "Basic Portfolio",
+  //   image: project12,
+  //   source: "https://meek-crepe-bf9a13.netlify.app/",
+  //   description:
+  //   "A personal portfolio website showcasing projects, skills, and contact information",
+  //   technologies: ["HTML", "CSS"],
+  // },
 ];
 
 export const CONTACT = {
